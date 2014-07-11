@@ -22,6 +22,13 @@
 		0EC35AFA196F20F800C3B90D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC35ADE196F20F700C3B90D /* CoreData.framework */; };
 		0EC35B02196F20F800C3B90D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EC35B00196F20F800C3B90D /* InfoPlist.strings */; };
 		0EC35B04196F20F800C3B90D /* IHHContactsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC35B03196F20F800C3B90D /* IHHContactsTestTests.m */; };
+		0EC35B11196F22DF00C3B90D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC35B10196F22DF00C3B90D /* Storyboard.storyboard */; };
+		0EC35B13196F26EA00C3B90D /* placeholder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0EC35B12196F26EA00C3B90D /* placeholder.jpeg */; };
+		0EC35B16196F6CFE00C3B90D /* IHHTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC35B15196F6CFE00C3B90D /* IHHTableViewCell.m */; };
+		0EC35B19196F6D1600C3B90D /* IHHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC35B18196F6D1600C3B90D /* IHHTableViewController.m */; };
+		0EC35B1F196FA8C000C3B90D /* IHHContactsFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC35B1E196FA8C000C3B90D /* IHHContactsFetcher.m */; };
+		0EC35B22196FC6A700C3B90D /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC35B21196FC6A700C3B90D /* Contact.m */; };
+		0EC35B25196FC82E00C3B90D /* IHHContactDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC35B24196FC82E00C3B90D /* IHHContactDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,18 @@
 		0EC35AFF196F20F800C3B90D /* IHHContactsTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IHHContactsTestTests-Info.plist"; sourceTree = "<group>"; };
 		0EC35B01196F20F800C3B90D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EC35B03196F20F800C3B90D /* IHHContactsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IHHContactsTestTests.m; sourceTree = "<group>"; };
+		0EC35B10196F22DF00C3B90D /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0EC35B12196F26EA00C3B90D /* placeholder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpeg; sourceTree = "<group>"; };
+		0EC35B14196F6CFE00C3B90D /* IHHTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHHTableViewCell.h; sourceTree = "<group>"; };
+		0EC35B15196F6CFE00C3B90D /* IHHTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHHTableViewCell.m; sourceTree = "<group>"; };
+		0EC35B17196F6D1600C3B90D /* IHHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHHTableViewController.h; sourceTree = "<group>"; };
+		0EC35B18196F6D1600C3B90D /* IHHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHHTableViewController.m; sourceTree = "<group>"; };
+		0EC35B1D196FA8C000C3B90D /* IHHContactsFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHHContactsFetcher.h; sourceTree = "<group>"; };
+		0EC35B1E196FA8C000C3B90D /* IHHContactsFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHHContactsFetcher.m; sourceTree = "<group>"; };
+		0EC35B20196FC6A700C3B90D /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		0EC35B21196FC6A700C3B90D /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		0EC35B23196FC82E00C3B90D /* IHHContactDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHHContactDetailsViewController.h; sourceTree = "<group>"; };
+		0EC35B24196FC82E00C3B90D /* IHHContactDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHHContactDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +134,9 @@
 		0EC35AE0196F20F700C3B90D /* IHHContactsTest */ = {
 			isa = PBXGroup;
 			children = (
-				0EC35AE9196F20F700C3B90D /* IHHAppDelegate.h */,
-				0EC35AEA196F20F700C3B90D /* IHHAppDelegate.m */,
-				0EC35AEF196F20F800C3B90D /* Images.xcassets */,
-				0EC35AEC196F20F700C3B90D /* IHHContactsTest.xcdatamodeld */,
+				0EC35B0D196F229A00C3B90D /* Controller */,
+				0EC35B0E196F22AC00C3B90D /* View */,
+				0EC35B0F196F22BE00C3B90D /* Model */,
 				0EC35AE1196F20F700C3B90D /* Supporting Files */,
 			);
 			path = IHHContactsTest;
@@ -151,6 +169,43 @@
 				0EC35B00196F20F800C3B90D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EC35B0D196F229A00C3B90D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0EC35AE9196F20F700C3B90D /* IHHAppDelegate.h */,
+				0EC35AEA196F20F700C3B90D /* IHHAppDelegate.m */,
+				0EC35B17196F6D1600C3B90D /* IHHTableViewController.h */,
+				0EC35B18196F6D1600C3B90D /* IHHTableViewController.m */,
+				0EC35B14196F6CFE00C3B90D /* IHHTableViewCell.h */,
+				0EC35B15196F6CFE00C3B90D /* IHHTableViewCell.m */,
+				0EC35B23196FC82E00C3B90D /* IHHContactDetailsViewController.h */,
+				0EC35B24196FC82E00C3B90D /* IHHContactDetailsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0EC35B0E196F22AC00C3B90D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0EC35B12196F26EA00C3B90D /* placeholder.jpeg */,
+				0EC35AEF196F20F800C3B90D /* Images.xcassets */,
+				0EC35B10196F22DF00C3B90D /* Storyboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0EC35B0F196F22BE00C3B90D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EC35B20196FC6A700C3B90D /* Contact.h */,
+				0EC35B21196FC6A700C3B90D /* Contact.m */,
+				0EC35AEC196F20F700C3B90D /* IHHContactsTest.xcdatamodeld */,
+				0EC35B1D196FA8C000C3B90D /* IHHContactsFetcher.h */,
+				0EC35B1E196FA8C000C3B90D /* IHHContactsFetcher.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +286,8 @@
 			files = (
 				0EC35AE5196F20F700C3B90D /* InfoPlist.strings in Resources */,
 				0EC35AF0196F20F800C3B90D /* Images.xcassets in Resources */,
+				0EC35B13196F26EA00C3B90D /* placeholder.jpeg in Resources */,
+				0EC35B11196F22DF00C3B90D /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +307,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EC35AEB196F20F700C3B90D /* IHHAppDelegate.m in Sources */,
+				0EC35B16196F6CFE00C3B90D /* IHHTableViewCell.m in Sources */,
+				0EC35B25196FC82E00C3B90D /* IHHContactDetailsViewController.m in Sources */,
+				0EC35B19196F6D1600C3B90D /* IHHTableViewController.m in Sources */,
 				0EC35AEE196F20F700C3B90D /* IHHContactsTest.xcdatamodeld in Sources */,
+				0EC35B22196FC6A700C3B90D /* Contact.m in Sources */,
+				0EC35B1F196FA8C000C3B90D /* IHHContactsFetcher.m in Sources */,
 				0EC35AE7196F20F700C3B90D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
